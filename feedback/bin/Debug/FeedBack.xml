@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FeedBack</name>
+    </assembly>
+    <members>
+        <member name="T:FeedBack.Controllers.FeedBackController">
+            <summary>
+            FeedBackController
+            </summary>
+        </member>
+        <member name="T:FeedBack.Dtos.FeedBackDto">
+            <summary>
+            FeedBackDto
+            </summary>
+        </member>
+        <member name="P:FeedBack.Dtos.FeedBackDto.FirstName">
+            <summary>
+            FirstName
+            </summary>
+        </member>
+        <member name="P:FeedBack.Dtos.FeedBackDto.LastName">
+            <summary>
+            LastName
+            </summary>
+        </member>
+        <member name="P:FeedBack.Dtos.FeedBackDto.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:FeedBack.Dtos.FeedBackDto.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:FeedBack.Dtos.FeedBackDto.FeedbackType">
+            <summary>
+            FeedbackType
+            </summary>
+        </member>
+        <member name="T:FoodDelivery.Dtos.ErrorDetails">
+            <summary>
+                Error Details
+            </summary>
+        </member>
+        <member name="P:FoodDelivery.Dtos.ErrorDetails.StatusCode">
+            <summary>
+                Status code
+            </summary>
+        </member>
+        <member name="P:FoodDelivery.Dtos.ErrorDetails.Message">
+            <summary>
+                Message
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Dtos.ErrorDetails.ToString">
+            <summary>
+                Serialize
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FoodDelivery.Helpers.ApiException">
+            <summary>
+            Custom exception class for throwing application specific exceptions (e.g. for validation) that can be caught and handled within the application
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Helpers.ApiException.#ctor">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:FoodDelivery.Helpers.ApiException.#ctor(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="message"></param>
+        </member>
+        <member name="M:FoodDelivery.Helpers.ApiException.#ctor(System.String,System.Object[])">
+             <summary>
+            
+             </summary>
+             <param name="message"></param>
+             <param name="args"></param>
+        </member>
+        <member name="T:FoodDelivery.Wrappers.PagedResponse`1">
+            <summary>
+            PagedResponse
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:FoodDelivery.Wrappers.PagedResponse`1.PageNumber">
+            <summary>
+            PageNumber
+            </summary>
+        </member>
+        <member name="P:FoodDelivery.Wrappers.PagedResponse`1.PageSize">
+            <summary>
+            PageSize
+            </summary>
+        </member>
+        <member name="P:FoodDelivery.Wrappers.PagedResponse`1.TotalRows">
+            <summary>
+            TotalRows
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Wrappers.PagedResponse`1.#ctor(`0,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            PagedResponse
+            </summary>
+            <param name="data"></param>
+            <param name="totalRows"></param>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+        </member>
+    </members>
+</doc>

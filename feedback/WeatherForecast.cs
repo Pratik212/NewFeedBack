@@ -1,6 +1,6 @@
 using System;
 
-namespace feedback
+namespace FeedBack
 {
     public class WeatherForecast
     {
